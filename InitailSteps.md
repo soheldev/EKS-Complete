@@ -147,7 +147,7 @@ rules:
       - replicationcontrollers
       - serviceaccounts
       - services
-    verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+    verbs: ["get", "list", "watch", "create", "update", "patch", "delete", "administer"]
 ```
 
 ### Bind the role to service account
